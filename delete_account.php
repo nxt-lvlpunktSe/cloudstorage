@@ -1,6 +1,6 @@
 <?php
 session_start();
-$conn = new mysqli("localhost", "bchuser", "starkt_lösenord", "cloudstorage");
+$conn = new mysqli("localhost", "användare", "starkt_lösenord", "cloudstorage");
 
 if (!isset($_SESSION["username"])) {
     header("Location: login.php");
